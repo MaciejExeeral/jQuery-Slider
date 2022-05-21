@@ -32,7 +32,6 @@ h1
 .slideshow
 {
     position: relative;
-    /* margin: 0 auto; */
     width: fit-content;
     left: 50%;
     transform: translateX(-50%);
@@ -44,6 +43,7 @@ h1
     border: 2px solid var(--red-accents);
     border-radius: 10px;
     box-shadow: 0px 0px 80px var(--red-accents);
+
 }
 
 .arrow
@@ -84,7 +84,7 @@ h1
 {
     display: none;
     border-radius: 10px;
-    max-height: 364px;
+    max-height: 360px;
     min-width: 640px;
     transition: transform 0.2s,
                 filter 0.1s;
