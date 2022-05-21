@@ -32,8 +32,10 @@ h1
 .slideshow
 {
     position: relative;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
     max-height: 364px;
     min-width: 640px;
     overflow: hidden;
@@ -89,4 +91,16 @@ h1
 .images .default
 {
     display: inline-block;
+}
+
+@media screen and (max-width: 800px) 
+{
+    .images img, .slideshow
+    {
+        max-width: 80vw;
+        min-width: 80vw;
+
+        max-height: 50vw;
+        min-height: 50vw;
+    }
 }
